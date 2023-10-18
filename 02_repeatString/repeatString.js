@@ -1,5 +1,5 @@
 const repeatString = function(phrase, repeats) {
-  finalString = '';
+  let finalString = '';
   if (repeats >= 0) {
     for (let i=0; i<repeats; i++) {
       finalString += phrase;
